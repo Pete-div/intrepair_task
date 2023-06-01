@@ -13,7 +13,7 @@ class PersonalInfo extends StatefulWidget {
 
 class _PersonalInfoState extends State<PersonalInfo> {
   List<String> gendelList = ['●   Not Specified', '●   Male', '●   Female'];
-  bool pressed = false;
+  bool pressed = true;
   String? selectedText;
   void handleTextClick(String item) {
     setState(() {
